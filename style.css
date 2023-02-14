@@ -27,11 +27,64 @@ body {
   padding: 16px;
   background-color: #fff;
 }
-.card_img {
+.card_img  {
+    width: 100%;
+    overflow: hidden;
+    background-color: orange;
+    height: 500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    position: relative;
+}
+.card_img img{
+    width: 100%;
+}
+.card_img:hover img{
+    /* transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1); */
+    filter: grayscale(2);
+    -webkit-filter: grayscale(1);
 }
 #imdb_ratings {
+    position:absolute;
+    top:0;
+    left: 0;
+    color: #fff;
+    font-weight: 600;
+    background-color: lightseagreen;
+    border-radius: 0 0 10px 0;
+    -webkit-border-radius: 0 0 10px 0;
+    -moz-border-radius: 0 0 10px 0;
+    -ms-border-radius: 0 0 10px 0;
+    -o-border-radius: 0 0 10px 0;
+    padding: 5px 10px;
 }
 #rotten_ratings {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: crimson;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 0 0 0 10px;
+    -webkit-border-radius: 0 0 0 10px;
+    -moz-border-radius: 0 0 0 10px;
+    -ms-border-radius: 0 0 0 10px;
+    -o-border-radius: 0 0 0 10px;
 }
 
 .card_details {
