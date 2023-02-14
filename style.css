@@ -1,0 +1,38 @@
+/* Google font  */
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Custom Css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Exo", sans-serif;
+  background-color: aliceblue;
+  color: #444;
+}
+
+.card_wrapper {
+  width: 400px;
+  margin: 100px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: #fff;
+}
+.card_img {
+}
+#imdb_ratings {
+}
+#rotten_ratings {
+}
+
+.card_details {
+}
