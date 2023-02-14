@@ -31,7 +31,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color: orange;
-    height: 500px;
+    height: 400px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -76,7 +76,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: crimson;
+    background-color: orangered;
     color: #fff;
     font-weight: 600;
     padding: 5px 10px;
@@ -87,5 +87,46 @@ body {
     -o-border-radius: 0 0 0 10px;
 }
 
-.card_details {
+.card_details h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    
+}
+.card_details p:nth-child(2){
+
+   color: orangered; 
+}
+.card_details p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.card_details a {
+ display: block;
+ text-align: center;
+ background-color: #2dddd5;
+ color: rgb(26, 144, 138);
+ margin-bottom: 16px;
+ font-size: 1.3em;
+ font-weight: 600;
+ transition: all .3s;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+ border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ -ms-border-radius: 3px;
+ -o-border-radius: 3px;
+ -webkit-transition: all .3s;
+ -moz-transition: all .3s;
+ -ms-transition: all .3s;
+ -o-transition: all .3s;
+}
+.card_details a:hover{
+    color: #fff;
+  letter-spacing: 8px;
+}
+.card_details a:active{
+    background-color: #3ec2bb ;
 }
