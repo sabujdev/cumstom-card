@@ -130,3 +130,6 @@ body {
 .card_details a:active{
     background-color: #3ec2bb ;
 }
+.card_details a .fa-youtube{
+    margin-right: 10px;
+}
